@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ravi"
+    }
+  },
+  "defaultProject": "ravi",
+  "cli": {
+    "analytics": "43f627e7-7473-4a91-bcaf-597b74b1eb68"
+  }
 }
