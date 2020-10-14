@@ -1,10 +1,7 @@
-# base image
-FROM node:latest as node
 
-# set working directory
+FROM node:latest as node
 WORKDIR /app
 
-# install and cache app dependencies
 COPY . .
 RUN npm install
 RUN npm run build --prod
