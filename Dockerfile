@@ -24,4 +24,6 @@ RUN npm run build
 # RUN npm run build 
 
 FROM nginx:alpine
+RUN npm install @angular/cli 
+RUN ng build
 COPY /dist/ravi /usr/share/ngnix/html
