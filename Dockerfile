@@ -24,4 +24,4 @@ COPY . /app
 RUN npm run build 
 
 FROM nginx:alpine
-COPY --from=node /app/dist/ravi /usr/share/ngnix/html
+COPY --from=node /app/dist /usr/share/ngnix/html
